@@ -1,0 +1,27 @@
+{
+  "name": "olo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1",
+    "axios": "^1.6.8",
+    "ollama": "^0.5.1",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.4",
+    "vue-router": "^4.3.2",
+    "vuetify": "^3.6.6"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@tauri-apps/cli": "^1",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.0.0"
+  }
+}
